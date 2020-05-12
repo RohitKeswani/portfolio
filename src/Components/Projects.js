@@ -1,65 +1,157 @@
 import React from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 
 class Projects extends React.Component{
-    constructor(props){
-        super(props);
-        this.state ={activeTab : 0};
-    }
-
-    toggleCategories(){
-        const linkToPicture ="https://mail.google.com/mail/?tab=im&authuser=0";
-        if(this.state.activeTab===0){
+    toggleCategories(projname){
+        if(projname==="todolist"){
             return(
-                <Card shadow={0} style={{width: "100%", height: '320px', margin: 'auto'}}>
-                    <CardTitle expand style={{color: 'black', background: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7UcwGee7bbvIScKKORhc80yebgxL4YXgVD-Cs3aUxqilJDvM8&usqp=CAU") bottom right 15% no-repeat #46B6AC'}}>To-Do List</CardTitle>
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">Do it Today !</span>
+                    </CardTitle>
                     <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aenan convallis.
+                    This app lets you create a list of tasks that you would like to do. It enhances productivity. 
+                    It lets you add the tasks, delete the tasks when they are completed and edit tasks if you would like.
                     </CardText>
-                    <CardActions border>
-                        <Button colored>View Updates</Button>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
+            )    
+        }
+        else if(projname==="touchstone"){
+            return(
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">TouchStone: Benchmark Framework For TensorFlow</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
+            )    
+        }
+        else if (projname==="pubsub"){
+            return(
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">Publisher/Subcriber System</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
                     </CardActions>
                 </Card>
             )
-        } else if(this.state.activeTab===1){
+        }
+        else if(projname==="gotravel"){
             return(
-                <div>
-                    <h1>This is Software Dev</h1>
-                </div>
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">Go Travel</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
             )
-        } else if(this.state.activeTab===2){
+        }
+        else if(projname==="dfrs"){
             return(
-                <div>
-                    <h1>
-                        This is Database
-                    </h1>
-                </div>
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">Distributed File Retrieval System</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
+            )
+        }
+        else if(projname ==="wirebug"){
+            return(
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">WireBug : Your own Wireshark</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
+            )
+        }
+        else if(projname==="airline"){
+            return(
+                <Card shadow={5} style={{width: '100%', margin:'auto'}}>
+                    <CardTitle className="project-title-bg" style={{color: '#fff', opacity:'0.8'}}>
+                        <span className="project-title">Airline on-time Performance statistics</span>
+                    </CardTitle>
+                    <CardText>
+                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
+                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    </CardText>
+                    <CardActions>
+                        <Button colored>GitHub</Button>
+                        <Button colored>LiveDemo</Button>
+                    </CardActions>
+                </Card>
             )
         }
     }
 
     render(){
         return(
-            <div className="cateogory-tabs">
-                <Tabs activeTab ={this.state.activeTab} onChange={(tabId)=> this.setState({activeTab: tabId})} ripple>
-                    <Tab>Web Development</Tab>
-                    <Tab>Software Development</Tab>
-                    <Tab>Database</Tab>
-                </Tabs>
-                <section className="projects-grid">
-                    <Grid className="grids-of-projects">
-                        <Cell col={3} className="each-project">
-                            {this.toggleCategories()}
-                        </Cell>
-                        <Cell col={3} className="each-project">
-                            {this.toggleCategories()}
-                        </Cell>
-                        <Cell col={3} className="each-project">
-                            {this.toggleCategories()}
-                        </Cell>
-                    </Grid>
-                </section>
+            <div>
+                <Grid>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("todolist")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("touchstone")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("pubsub")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("gotravel")}
+                    </Cell>
+                </Grid>
+                <Grid>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("dfrs")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("wirebug")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
+                        {this.toggleCategories("airline")}
+                    </Cell>
+                </Grid>
             </div>
         );
     }
