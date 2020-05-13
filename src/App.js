@@ -8,20 +8,16 @@ function App() {
   return (
     <div style={{height: '726px', position: 'relative'}}>
     <Layout>
-        <Header className="header-color" title="R.">
+        <Header className="header-color" title={<Link style={{textDecoration:"none", color:"white"}} to="/">R.</Link>}>
             <Navigation>
-                <Link to="/about">About Me</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/experience">Experience</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact Me</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title={<Link style={{textDecoration:"none"}} to="/">Rohit Keswani</Link>}>
             <Navigation>
-                <Link to="/about">About Me</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/experience">Experience</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact Me</Link>
             </Navigation>

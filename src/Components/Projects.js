@@ -10,7 +10,7 @@ class Projects extends React.Component{
                         <span className="project-title">Do it Today !</span>
                     </CardTitle>
                     <CardText>
-                    This app lets you create a list of tasks that you would like to do. It enhances productivity. 
+                    This app lets you create a list of tasks that you would like to do today. It enables to enhance productivity. 
                     It lets you add the tasks, delete the tasks when they are completed and edit tasks if you would like.
                     </CardText>
                     <CardActions>
@@ -44,8 +44,8 @@ class Projects extends React.Component{
                         <span className="project-title">Publisher/Subcriber System</span>
                     </CardTitle>
                     <CardText>
-                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
-                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    Developed a messaging queue with Publisher Subscriber system to resemble a blogging environment. 
+                    Used Socket programming for communication, performed JUnit Testing and deployed on docker containers.
                     </CardText>
                     <CardActions>
                         <Button colored>GitHub</Button>
@@ -61,8 +61,7 @@ class Projects extends React.Component{
                         <span className="project-title">Go Travel</span>
                     </CardTitle>
                     <CardText>
-                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
-                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    Developed a web application to buy travel packages. Implemented CRUD functionality with the database to store payment and order details, with User authentication and payment gateway integration. 
                     </CardText>
                     <CardActions>
                         <Button colored>GitHub</Button>
@@ -78,8 +77,7 @@ class Projects extends React.Component{
                         <span className="project-title">Distributed File Retrieval System</span>
                     </CardTitle>
                     <CardText>
-                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
-                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    Developed a peer-to-peer system to push and fetch les from over the private network using Distributed Hash Tables. Implemneted using RMI concepts and deployed the project on local docker containers.
                     </CardText>
                     <CardActions>
                         <Button colored>GitHub</Button>
@@ -95,8 +93,7 @@ class Projects extends React.Component{
                         <span className="project-title">WireBug : Your own Wireshark</span>
                     </CardTitle>
                     <CardText>
-                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
-                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    Developed a program to analyze network packets from Wireshark. Retrieved information from the packets such as protocol used, sender and receiver IP address, MAC addresses and payload information. 
                     </CardText>
                     <CardActions>
                         <Button colored>GitHub</Button>
@@ -112,8 +109,7 @@ class Projects extends React.Component{
                         <span className="project-title">Airline on-time Performance statistics</span>
                     </CardTitle>
                     <CardText>
-                    A Distributed Framework for TensorFlow Benchmarking to fetch performance statistics of TensorFlow models and 
-                    perform workload distribution leading to better resource utilization and reduced run time. 
+                    Collected airline data, pre-processed and prepared it for analysis. Performed Logistic Regression, K-NN Classier and Decision Tree algorithms to predict and classify the performance of airlines.
                     </CardText>
                     <CardActions>
                         <Button colored>GitHub</Button>
@@ -132,13 +128,13 @@ class Projects extends React.Component{
                         {this.toggleCategories("todolist")}
                     </Cell>
                     <Cell col={3} className="each-project">
+                        {this.toggleCategories("gotravel")}
+                    </Cell>
+                    <Cell col={3} className="each-project">
                         {this.toggleCategories("touchstone")}
                     </Cell>
                     <Cell col={3} className="each-project">
                         {this.toggleCategories("pubsub")}
-                    </Cell>
-                    <Cell col={3} className="each-project">
-                        {this.toggleCategories("gotravel")}
                     </Cell>
                 </Grid>
                 <Grid>
