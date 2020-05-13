@@ -103,6 +103,7 @@
     justify-content: center;
     font-family: 'Oxygen', sans-serif;
 }
+
 /**Project Page**/
 .project-title-bg{
     background: #06beb6;  /* fallback for old browsers */
@@ -126,43 +127,51 @@
     height: 100%;
     justify-content: center;
     padding-top: 2em;
+    background-color: #ecf0f1;
 }
 
 .contact-grid{
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     height: 80%;
-    background: white;
-    color: black;
+    color: #2c3e50;
     margin-bottom: 20px;
 }
 
 .contact-grid h2{
-    font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p{
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
 }
 
+.contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: medium;
+    color: #2c3e50;
+}
+
 .contact-grid hr{
-    border-top: 5px dotted black;
-    width: 100%;
+    border-top: 5px dotted #2c3e50;
+    width: 50%;
     margin: auto;
 }
 
 .contact-list{
-    padding-top: 5em;
-    padding-left: 7rem;
+    padding-top: 2em;
+    padding-left: 6rem;
 }
 
 .contact-list i{
     font-size: 40px;
-    padding-right: 5rem;
+    padding-right: 1rem;
+    color: #2c3e50;
 }
 
 .list-content{
     text-align: center;
+}
+
+.list-content a{
+    text-decoration: none;
+    color: #2c3e50;
 }
