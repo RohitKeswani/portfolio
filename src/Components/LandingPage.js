@@ -1,18 +1,19 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
+import mypic1 from '../assets/images/mypic1.png';
 
 class LandingPage extends React.Component{
     render(){
         return(
-            <div style={{width:'100%', margin:"auto"}}>
-                <Grid className="landing-grid">
+            <div className="landing-grid">
+                <Grid>
                     <Cell col={12}>
-                        <img src="https://getdrawings.com/free-icon/cool-profile-icons-69.png" alt="avatar" className="avatar-img"/>
+                        <img src={mypic1} alt="avatar" className="avatar-img"/>
                         <div className="banner-text">
                             <h1> Full Stack Developer</h1>
                             <hr/>
                             <p>
-                                Java | Python | HTML | CSS | React | NodeJS | MongoDB
+                                Java | Python | Gradle | Docker | MERN Stack | HTML | CSS
                             </p>
 
                             <div className="social-links">

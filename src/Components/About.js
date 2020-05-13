@@ -1,5 +1,6 @@
 import React from 'react';
 import {Grid, Cell} from 'react-mdl';
+import mypic3 from '../assets/images/mypic3.png'
 
 class About extends React.Component{
     render(){
@@ -7,8 +8,7 @@ class About extends React.Component{
             <div className="aboutme">
                <Grid>
                    <Cell col={12}>
-                       <h2 style={{fontFamily:"Oxygen", paddingLeft:"5rem"}}> About me</h2>
-                       <img src="https://getdrawings.com/free-icon/cool-profile-icons-69.png" alt="avatar" style={{height:"200px"}}/>
+                       <img src={mypic3} alt="avatar" style={{height:"200px"}}/>
                        <p style={{justifyContent:"left"}}>
                            As you already know, my name is Rohit Keswani and I am a full stack developer. I have an Master's degree in 
                            Computer Science from Rochester Institute of Technology in Rochester, New York. Before that, I was studying at
