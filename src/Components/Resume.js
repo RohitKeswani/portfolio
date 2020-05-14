@@ -3,6 +3,8 @@ import Education from './Education';
 import Experience from './Experience';
 import About from './About';
 import {Grid, Cell} from 'react-mdl';
+import resume from '../assets/misc/Rohit_Keswani_Resume.pdf';
+
 
 class Resume extends React.Component{
     render(){
@@ -10,6 +12,7 @@ class Resume extends React.Component{
             <Grid style={{backgroundColor:"#ecf0f1"}}>
                 <Cell className="resume-left" col={4}>
                     <h3 style={{color:"#2c3e50"}}> About me</h3>
+                    <p><a href={resume} rel="noopener noreferrer" class="link" target="_blank">Click here to see my Resume</a></p>
                     <About></About>
                 </Cell>
                 <Cell className="resume-right" col={8}>

@@ -33,6 +33,11 @@ class LandingPage extends React.Component{
                         </div>
                     </Cell>
                 </Grid>
+                <Grid className="footer">
+                    <Cell col={12}>
+                        Created with <i className="fa fa-heart" aria-hidden="true"></i> by Rohit Keswani.
+                    </Cell>
+                </Grid>
             </div>
         );
     }
