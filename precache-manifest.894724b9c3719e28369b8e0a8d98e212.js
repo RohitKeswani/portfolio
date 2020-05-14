@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e3f2c5456c48a69b22b1363a0e96c8d",
+    "revision": "3bac64cd3cbaf9bf8cc9142a36f00a65",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "04a6a47576f7a7fcf29e",
+    "revision": "6d60c057ddf60f858501",
     "url": "/portfolio/static/css/main.4027f945.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.beefc8a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04a6a47576f7a7fcf29e",
-    "url": "/portfolio/static/js/main.35e0ce19.chunk.js"
+    "revision": "6d60c057ddf60f858501",
+    "url": "/portfolio/static/js/main.73fe5812.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/CapstoneReport.371d4824.pdf"
   },
   {
-    "revision": "dac7c9bf48b16248328670d1238fcd79",
-    "url": "/portfolio/static/media/Rohit_Keswani_Resume.dac7c9bf.pdf"
+    "revision": "5459ad7951b9b026f82504708b6c0572",
+    "url": "/portfolio/static/media/Rohit_Keswani_Resume.5459ad79.pdf"
   },
   {
     "revision": "f1349c4f4f685a1bab797f342771f520",
