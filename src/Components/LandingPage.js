@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import mypic1 from '../assets/images/mypic1.png';
+import Typewriter from 'typewriter-effect';
 
 class LandingPage extends React.Component{
     render(){
@@ -10,7 +11,8 @@ class LandingPage extends React.Component{
                     <Cell col={12}>
                         <img src={mypic1} alt="avatar" className="avatar-img"/>
                         <div className="banner-text">
-                            <h1> Full Stack Developer</h1>
+                            <h1><Typewriter options={{strings: ['Rohit Keswani'], autoStart: true, loop: true,}}/></h1>
+                            <h3> Full Stack Developer</h3>
                             <hr/>
                             <p>
                                 Java | Python | Gradle | Docker | MERN Stack | HTML | CSS
@@ -35,7 +37,7 @@ class LandingPage extends React.Component{
                 </Grid>
                 <Grid className="footer">
                     <Cell col={12}>
-                        Created with <i className="fa fa-heart" aria-hidden="true"></i> by Rohit Keswani.
+                       <p>Created with <i className="fa fa-heart" aria-hidden="true"></i> by Rohit Keswani.</p>
                     </Cell>
                 </Grid>
             </div>
