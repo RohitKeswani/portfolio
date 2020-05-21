@@ -7,16 +7,16 @@ import logo from './assets/images/logo.png';
 
 function App() {
   return (
-    <div style={{height:"761px"}}>
+    <div>
         <Layout>
-            <Header className="header-color" title={<Link style={{textDecoration:"none", color:"white"}} to="/"><img src={logo} alt="logo" style={{height:"2.5em"}}/></Link>}>
+            <Header style={{background:"#2c3e50"}} title={<Link style={{textDecoration:"none", color:"#2c3e50"}} to="/"><img src={logo} alt="logo" style={{height:"2.5em"}}/></Link>}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact Me</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration:"none"}} to="/">Rohit Keswani</Link>}>
+            <Drawer className="drawer-color" title={<Link style={{textDecoration:"none"}} to="/">Rohit Keswani</Link>}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>

@@ -130,9 +130,9 @@ class Projects extends React.Component{
         return (
             <div className="demo-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>MERN Stack</Tab>
-                    <Tab>Java</Tab>
-                    <Tab>Python</Tab>
+                    <Tab style={{color:"#2c3e50"}}>MERN Stack</Tab>
+                    <Tab style={{color:"#2c3e50"}}>Java</Tab>
+                    <Tab style={{color:"#2c3e50"}}>Python</Tab>
                 </Tabs>
                 <section>
                     <div className="each-project">{this.toggleCategories()}</div>

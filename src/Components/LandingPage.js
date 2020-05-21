@@ -13,7 +13,6 @@ class LandingPage extends React.Component{
                         <div className="banner-text">
                             <h1><Typewriter options={{strings: ['Rohit Keswani'], autoStart: true, loop: true,}}/></h1>
                             <h3> Full Stack Developer</h3>
-                            <hr/>
                             <p>
                                 Java | Python | Gradle | Docker | MERN Stack | HTML | CSS
                             </p>

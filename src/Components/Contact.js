@@ -9,7 +9,6 @@ class Contact extends React.Component{
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Rohit Keswani</h2>
-                        <hr/>
                         <img src={mypic1} alt="avatar" style={{height: "250px", paddingTop:"2em"}}/>
                         <p style={{width:"75%", margin :"auto", paddingTop:"1em"}}>
                             Hi, feel free to reach out to me if you would like to discuss about a opportunity or 
@@ -20,7 +19,6 @@ class Contact extends React.Component{
                         <h2>
                             Contact me
                         </h2>
-                        <hr/>
                         <div className="contact-list">
                         <List className="list-content">
                             <ListItem>

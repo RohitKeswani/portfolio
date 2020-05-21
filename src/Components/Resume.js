@@ -19,7 +19,7 @@ class Resume extends React.Component{
                     <h3 style={{color:"#2c3e50"}}>Education</h3>
                     <hr/>
                     <Education startMonth="Aug" startYear="2017" endMonth="May" endYear="2020" universityName="Rochester Institute of Technology"
-                    univeristyLocation="Rochester, New York" courseDetails="Master of Scieces in Computer Science"
+                    univeristyLocation="Rochester, New York" courseDetails="Master of Science in Computer Science"
                     univeristyDescription="Courses: Foundation of Algorithms, Data Structures, Object Oriented Programming, Distributed Systems,
                     Foundation of Networks, Big Data Analytics, Foundation of Computer Vision."/>
                     <Education startMonth="Aug" startYear="2013" endMonth="May" endYear="2017" universityName="Univeristy of Mumbai"
