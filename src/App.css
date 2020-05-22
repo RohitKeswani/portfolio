@@ -1,20 +1,20 @@
-/**Landing Page**/
-.landing-grid{
-    text-align: center;
+body{
     background-image: url('../src/assets/images/bg.jpg');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+}
+/**Landing Page**/
+.landing-grid{
+    text-align: center;
     /* background-color: #ecf0f1; */
-    top:0;
-    left: 0;
     width: 100%;
 }
 
 .avatar-img{
-    width: 25%;
-    padding-top: 8em;
-    padding-bottom: 2em;
+    width: 20%;
+    padding-top: 3em;
+    padding-bottom: 1em;
 }
 
 .banner-text{
@@ -26,13 +26,13 @@
 .banner-text h3, .banner-text h1{
     font-family: 'Oxygen';
     font-weight: medium;
-    color: #ecf0f1;;
+    color: #2c3e50;
     margin: auto;
 }
 
 .banner-text p{
     font-family: 'Oxygen';
-    color: #ecf0f1;;
+    color: #2c3e50;
     font-size: 20px;
     padding: 1em;
     margin: auto;
@@ -46,12 +46,12 @@
 }
 
 .social-links i{
-    color: #ecf0f1;;
+    color: #2c3e50;
     font-size: 2.5em;
 }
 
 .footer{
-    color: #ecf0f1;;
+    color: #2c3e50;
 }
 
 .footer i{
@@ -96,7 +96,7 @@
 
 /**Project Page**/
 .demo-tabs{
-    background-color: #ecf0f1;
+
     min-height: 100vh;
 }
 .project-title-bg{
@@ -132,7 +132,9 @@
     height: 100%;
     justify-content: center;
     padding-top: 2em;
-    background-color: #ecf0f1;
+    text-align: center;
+    color: #2c3e50;
+    /* background-color: #ecf0f1; */
 }
 
 .contact-grid{

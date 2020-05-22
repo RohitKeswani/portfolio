@@ -9,7 +9,7 @@ import resume from '../assets/misc/Rohit_Keswani_Resume.pdf';
 class Resume extends React.Component{
     render(){
         return(
-            <Grid style={{backgroundColor:"#ecf0f1"}}>
+            <Grid>
                 <Cell className="resume-left" col={4}>
                     <h3 style={{color:"#2c3e50"}}> About me</h3>
                     <p><a href={resume} rel="noopener noreferrer" class="link" target="_blank">Click here to see my Resume</a></p>
